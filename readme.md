@@ -3,6 +3,15 @@
 "Don't type into the wire."
 "Talk to it properly."
 
+*Note: Download the casefiles by running the following command in terminal*
+
+```bash
+wget https://hr-projects-assets-prod.s3.amazonaws.com/3mb2gksc5hh/cc4e577f956438b4d533b9f17ac85ab1/casefiles.zip
+
+# Unzip it
+unzip casefiles.zip
+```
+
 You're in the basement lab—below the noise of the office, below the part of the building that still pretends nothing is wrong.
 
 Upstairs: calls, laughter, Slack pings.
