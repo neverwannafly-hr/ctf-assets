@@ -1,148 +1,170 @@
-BLACKWIRE: Tenfold and the Scar
+# BLACKWIRE
 
-“Don’t type into the wire.”
-“Talk to it properly.”
+"Don't type into the wire."
+"Talk to it properly."
 
-You’re in the basement lab.
+You're in the basement lab—below the noise of the office, below the part of the building that still pretends nothing is wrong.
 
-Upstairs the office is still alive—calls, laughter, Slack pings. Down here it’s fluorescent light and cold metal. The kind of cold that makes everything feel like evidence.
+Upstairs: calls, laughter, Slack pings.
+Down here: fluorescent buzz and cold metal.
+The kind of cold that makes every surface feel like evidence.
 
-Behind the server rack: a weathered black case bolted to the floor like someone expected it to be found… but not opened.
+Behind the server rack, bolted to the floor, is a black case with corners worn smooth—like it's been handled by people who never wrote their names down.
 
 Three modules.
-Three names.
-One Timer
+Three labels.
+One timer.
 
-One port stamped into the steel:
+A single port is stamped into the steel:
 
-WIRE
+**WIRE**
 
-A sticky note is attached to the lid:
+A sticky note is attached to the lid. The handwriting is neat, almost kind:
 
-“A stranger gets silence.”
-“A name gets a reply.”
-“Keep the replies.”
+"A stranger gets silence."
+"A name gets a reply."
+"Keep the replies."
 
-Below it, in smaller handwriting:
+Beneath it, in smaller ink:
 
-“First: open what’s sealed.”
-“Second: trust the stamp.”
-“Third: read what machines read.”
+"First: open what's sealed."
+"Second: trust the stamp."
+"Third: read what machines read."
 
 And underneath that—written like a warning to the impatient:
 
-“Five bad answers in a row…”
-“…and the wire goes quiet.”
-“Not for the case.”
-“For you.”
+"Five bad answers in a row…"
+"…and the wire goes quiet."
+"Not for the case."
+"For you."
 
-You have 30 minutes.
+You have **60 minutes**.
 
 This environment contains:
+- a Jupyter notebook (your bench)
+- a folder called `casefiles/`
+- an executable called `wire`
 
-a Jupyter notebook (your bench)
+"Tools are allowed."
+"Guessing isn't."
 
-a folder called casefiles/
+---
 
-an executable called wire
-
-“Tools are allowed.”
-“Guessing isn’t.”
-
-The Wire
+## THE WIRE
 
 The case listens only through the wire.
 
-“Introduce yourself once.”
-“After that, speak like you belong here.”
+"Introduce yourself once."
+"After that, speak like you belong here."
 
-Bomb 1 — THE ARCHIVE
+The wire does not negotiate.
+It only *records*.
 
-### Add a hint for grepping code from one file (KEY keyword)
+---
 
-The first module blinks like a heartbeat.
+## BOMB 1 — TENFOLD ARCHIVE
+
+The first module blinks like a slow heartbeat.
 
 A strip of tape crosses its face:
 
-“Everything looks the same until you open it.”
-“Ten doors, then ten more, then ten more.”
-“Depth is where time goes to die.”
+"Ten doors, then ten more, then ten more."
+"Everything matches."
+"Everything wants you to waste time."
 
-Inside casefiles/:
+Inside `casefiles/`:
+- `payload.zip`
 
-payload.zip
+The archive is perfect repetition—folders stacked like mirrors, files cut from the same mold.
+Same sizes. Same names. Same silence.
 
-It’s symmetry all the way down.
+A smaller note is wedged under the tape, its edges worn from handling:
 
-“One path isn’t pretending.”
-“Find the voice that reads like a human wrote it.”
+"Don't open every door."
+"Most locks are decoration. One isn't."
+"The answer's already written somewhere inside."
 
-Defuse the first module.
-If the case replies—keep what it gives you.
+And at the bottom, in different ink:
 
-Bomb 2 — THE STAMP
+"The case doesn't want your interpretation. It wants what it asked for."
 
-The second module doesn’t blink.
+The rest are there to make you doubt your tools.
 
-It repeats one line, calmly:
+Find what doesn't repeat. Bring it back exactly as it appears.
 
-“Name it.”
+---
+
+## BOMB 2 — THE STAMP
+
+The second module doesn't blink.
+
+It repeats one line, calmly, like a clerk who has seen too many forged documents:
+
+"Name it."
 
 A cracked note is taped beside it:
 
-“Most records are honest.”
-“Some are wrong on purpose.”
-“The lie leaves a scar.”
+"Most records are honest."
+"Some are wrong on purpose."
+"The lie leaves a scar."
 
-Inside casefiles/:
+Inside `casefiles/`:
+- `manifest.csv`
+- `stamp.py`
 
-manifest.csv
+Someone has added a sentence beneath the tape, almost like a dare:
 
-stamp.py
+"Records don't confess. They fail their audits."
 
-Someone wrote one more line under the tape, almost like a dare:
+A second scrap is pinned underneath, written in a different hand:
 
-“Lots of whispers will claim they’re the truth.”
-“Only one whisper sits on a broken stamp.”
+"Start with what can't afford to be wrong."
+"The validation doesn't lie—when it breaks, follow the break."
 
-Somewhere in the manifest:
+And next to it, a smudged diagram of concentric circles:
 
-one country is consistently “off”
+"Some messages arrive shifted."
+"The alphabet is a wheel. Twenty-six positions."
+"Turn it until the noise becomes signal."
 
-many rows contain rotated-looking whispers
+The manifest holds dozens of entries—all look identical at first glance.
+But someone wasn't careful enough.
+One record contradicts its own proof.
 
-and many of those whispers are bait
+Inside that record, something whispers in the wrong direction.
+Most whispers stay garbled no matter how you listen.
+But one aligns when you know which way to turn.
 
-“When the stamp is wrong, the margin matters.”
-“When the stamp is right, the margin lies.”
+When it clears, you'll recognize it.
 
-Find the city the case is asking for.
+The case is waiting for the place that couldn't hide its mistake.
 
-Defuse the second module.
-If the case replies—keep that too.
+"Name it."
 
-Bomb 3 — THE LENS
+---
+
+## BOMB 3 — THE LENS
 
 The third module is silent.
 
-No blink. No display.
+A metal plate across its face:
 
-Just a metal plate screwed into it:
+"Look beneath the surface."
+"Not what's shown—what's embedded."
 
-“Look at the essence.”
-“Not the picture.”
-“The part engineers never stop seeing.”
+Inside `casefiles/`:
+- `root.png`
 
-Inside casefiles/:
+A scorched note on the back:
 
-root.png
+"Every file remembers how it was made."
+"The picture is a distraction."
 
-“Humans see light.”
-“Machines see structure.”
+"The case has been teaching you its language."
+"This file speaks it too."
 
-The case has already spoken to you twice.
+And at the bottom:
 
-“This time… the file tells you exactly what to say.”
-“If you know where to look.”
+"Incomplete sentences wait for what came before."
 
-Good luck.
+The image won't yield to strangers.
